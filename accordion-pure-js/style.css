@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+h3 {
+    background-image: url(accordion-down.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-position-y: 5px;
+    font-size: 18px;
+    font-family: Arial;
+    line-height: 25px;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 999;
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    float: left;
+}
+
+header ul li {
+    list-style: none;
+    padding-right: 15px;
+}
+
+header ul li a {
+    font-family: 'Arial';
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #FFDD00;
+}
+
+.hamburguer a {
+    float: left;
+    transform: rotate(90deg);
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+nav ul {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
